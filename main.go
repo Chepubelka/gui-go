@@ -67,13 +67,13 @@ func main() {
                         myApp.Quit()
                      }))
                      myWindow1.SetContent(vBox)
+                     myWindow1.Resize(fyne.NewSize(500,700))
                 }),
             ))
             myWindow1.Resize(fyne.NewSize(500,100))
             myWindow1.Show()
         }),
     ))
-    
     myWindow.ShowAndRun()
 }
 
